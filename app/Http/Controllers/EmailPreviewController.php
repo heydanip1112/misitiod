@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class EmailPreviewController extends Controller
 {
+    // hola soy un comentario
     public function __invoke(){
         request()->validate([
             'customer' => 'required|string',
